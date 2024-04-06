@@ -4,7 +4,7 @@ The string.h library is the main C library for string processing. As part of the
 
  - The library is developed in C language of C11 standard using gcc compiler following to the Google style
  - Made as a static library (with the header file s21_string.h)
- - Unit-tests check the results of implementation by comparing them with the implementation of the standard string.h library
+ - Unit-tests check the results of implementation by comparing them with the implementation of the standard string.h library. Tests are located in the s21_check.c in the src.
  - Unit tests cover at least 80% of each function (checked using gcov)
  - Makefile is used for building the library and tests (with the targets all, clean, test, s21_string.a, gcov_report)
  - The gcov_report target generates a gcov report in the form of an html page. Unit tests are run with gcov flags to do this
